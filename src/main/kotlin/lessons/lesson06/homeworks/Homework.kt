@@ -2,9 +2,9 @@ package org.popkova.lessons.lesson06.homeworks
 
 fun task1(arg: Int) {
     when (arg) {
-        in 3..5 -> println("Vesna")
-        in 6..8 -> println("Leto")
-        in 9.. 11 -> println("Osen")
+        in 3..5 -> println ("Vesna")
+        in 6..8 -> println ("Leto")
+        in 9.. 11 -> println ("Osen")
         12, 1, 2 -> println("Zima")
         else -> println("Incorrect")
     }
@@ -45,14 +45,14 @@ fun task4(purchaseAmount: Int) {
 }
 
 fun task5(extension: String) {
-    if (extension == "txt" || extension == "doc" || extension == "docx" || extension == "rtf") {
+    if (extension == "txt"  extension == "doc"  extension == "docx"  extension == "rtf") {
         println("text document")
-    } else if (extension == "jpg" || extension == "jpeg" || extension == "png" || extension == "gif" || extension == "bmp") {
-        println("Image")
-    } else if (extension == "xls" || extension == "xlsx" || extension == "csv") {
-        println("Table")
+    } else if (extension == "jpg"  extension == "jpeg"  extension == "png"  extension == "gif"  extension == "bmp") {
+        println("image")
+    } else if (extension == "xls"  extension == "xlsx" || extension == "csv") {
+        println("table")
     } else {
-        println("Unknown type")
+        println("unknown type")
     }
 }
 
@@ -103,7 +103,7 @@ fun task8(age: Int) {
 
 fun main() {
     task1(3)  // Вывод: Март
-    task2 (dogAge =0.5)  // Пример: возраст собаки 1.5 года
+    task2 (dogAge = 0.5)  // Пример: возраст собаки 1.5 года
     task2 (dogAge = 5.0)  // Пример: возраст собаки 5 лет
     task3 (distanceKm = 2)
     task4 (purchaseAmount = 800)
