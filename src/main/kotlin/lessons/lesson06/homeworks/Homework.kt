@@ -45,11 +45,11 @@ fun task4(purchaseAmount: Int) {
 }
 
 fun task5(extension: String) {
-    if (extension == "txt"  extension == "doc"  extension == "docx"  extension == "rtf") {
+    if (extension == "txt" ||  extension == "doc" ||  extension == "docx" ||  extension == "rtf") {
         println("text document")
-    } else if (extension == "jpg"  extension == "jpeg"  extension == "png"  extension == "gif"  extension == "bmp") {
+    } else if (extension == "jpg" || extension == "jpeg" ||  extension == "png" || extension == "gif" || extension == "bmp") {
         println("image")
-    } else if (extension == "xls"  extension == "xlsx" || extension == "csv") {
+    } else if (extension == "xls" || extension == "xlsx" || extension == "csv") {
         println("table")
     } else {
         println("unknown type")
