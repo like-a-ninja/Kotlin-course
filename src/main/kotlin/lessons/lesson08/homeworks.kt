@@ -1,6 +1,5 @@
 package org.popkova.lessons.lesson08
 
-import org.popkova.lessons.lesson07.task16
 
 fun task1(arg: String) {
     val result1 = when {
